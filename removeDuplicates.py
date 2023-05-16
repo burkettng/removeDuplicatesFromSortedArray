@@ -45,11 +45,23 @@ class Solution(object):
 			else: 
 				i += 1    #Increment the main counter and keep moving
 				 	
-			
+		return nums	
     	#Here I will define a main method to run the show
 	def main():
 		#Here I will create test data and see what works
-		print("First contact")
+		#First I need to create a couple test arrays
+		
+		testArr01 = [1, 1, 2, 3, 3, 4, 5]    #Test array 1
+		testArr02 = [1, 2, 2, 3, 4]          #Test array 2
+		testArr03 = [1, 2, 3, 4, 5, 6, 7]    #Test array 3
+		
+		print("Entering testing...")	     #Display message to user stating they have started the process	
+		
+		#Here is where I test array 1
+		print(removeDuplicates(testArr01))   #Display the result of test 1
+		print(removeDuplicates(testArr02))   #Display the result of test 2
+		print(removeDuplicates(testArr03))   #Display the result of test 3
+
 	#Now I need to call the main method
 	if __name__ == "__main__": 
 		main()		 
