@@ -18,6 +18,13 @@ class Solution(object):
 		:type: int
 		"""
 
+		boolVar = True        #Create a boolean variable to run the main while loop
+		i = 0		      #Create a counter variable to index the array
+
+		#Create a while loop to step through the array
+		while(boolVar):
+			#The action goes in here
+
     	#Here I will define a main method to run the show
 	def main():
 		#Here I will create test data and see what works
